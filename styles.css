@@ -1,0 +1,140 @@
+/********************** Body **********************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#detail-body {
+    min-height: 200vh;
+}
+
+/********************** Titles **********************/
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    margin: 30px 0 30px 20px;
+}
+
+/********************** Images (I gave a fixed height and width value to avoid bouncing on the page.) **********************/ 
+img {
+    width: 200px;
+    height: 300px;
+}
+
+/********************** Links (inside the boxes) **********************/
+.boxes a {
+    color: #333;
+    text-decoration: none;
+}
+
+.boxes a:hover {
+    color: #555;
+}
+
+/********************** Navbar **********************/
+#navbar {
+    background-color: #333;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#navbar h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.menu ul a li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul a:hover {
+    background-color: #555;
+}
+
+/********************** Boxes **********************/
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box-01, .box-02 {
+    background-color: #ffffff;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+  
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(214, 214, 214);
+}
+
+.box-01:hover, .box-02:hover {
+    box-shadow: 0 4px 8px rgb(116, 116, 116);
+}
+
+.box-detail-01, .box-detail-02 {
+    background-color: #ffffff;
+    text-align: center;
+    width: 98%;
+    height: 40%;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(214, 214, 214);
+    margin: 1;
+}
+
+.boxes-detail {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/********************** Footer **********************/
+#footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    justify-content: center;
+    gap: 50px; 
+    padding: 10px 0;
+    color: #f4f4f4;
+}
+
+#footer p {
+    font-size: 15px;
+}
